@@ -13,6 +13,7 @@
 		9818A40C28BB0CC900C33DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9818A40A28BB0CC900C33DBB /* Main.storyboard */; };
 		9818A40E28BB0CCD00C33DBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9818A40D28BB0CCD00C33DBB /* Assets.xcassets */; };
 		9818A41128BB0CCD00C33DBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9818A40F28BB0CCD00C33DBB /* LaunchScreen.storyboard */; };
+		981B187628BD90A600B7E214 /* Transition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981B187528BD90A600B7E214 /* Transition.storyboard */; };
 		98D8D3C428BBAA31007A24AB /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8D3C328BBAA31007A24AB /* FunctionViewController.swift */; };
 		98D8D3C628BCD3A8007A24AB /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D8D3C528BCD3A8007A24AB /* Setting.storyboard */; };
 		98D8D3C928BCD46D007A24AB /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D8D3C828BCD46D007A24AB /* Search.storyboard */; };
@@ -21,6 +22,8 @@
 		98D8D3D228BCDA40007A24AB /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 98D8D3D128BCDA40007A24AB /* FSCalendar */; };
 		98D8D3D628BCE072007A24AB /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 98D8D3D528BCE072007A24AB /* IQKeyboardManagerSwift */; };
 		98D8D3D828BCE358007A24AB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D8D3D728BCE358007A24AB /* SearchViewController.swift */; };
+		98F2D84828BD974800205F75 /* TransitionFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F2D84728BD974800205F75 /* TransitionFirstViewController.swift */; };
+		98F2D84A28BDA35E00205F75 /* TransitionSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F2D84928BDA35E00205F75 /* TransitionSecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +35,13 @@
 		9818A40D28BB0CCD00C33DBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9818A41028BB0CCD00C33DBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9818A41228BB0CCD00C33DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		981B187528BD90A600B7E214 /* Transition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transition.storyboard; sourceTree = "<group>"; };
 		98D8D3C328BBAA31007A24AB /* FunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
 		98D8D3C528BCD3A8007A24AB /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		98D8D3C828BCD46D007A24AB /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		98D8D3D728BCE358007A24AB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		98F2D84728BD974800205F75 /* TransitionFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionFirstViewController.swift; sourceTree = "<group>"; };
+		98F2D84928BDA35E00205F75 /* TransitionSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 		9818A40328BB0CC900C33DBB /* Week2 */ = {
 			isa = PBXGroup;
 			children = (
+				981B187428BD908100B7E214 /* Transition */,
 				98D8D3C728BCD45D007A24AB /* New Group */,
 				9818A40428BB0CC900C33DBB /* AppDelegate.swift */,
 				9818A40628BB0CC900C33DBB /* SceneDelegate.swift */,
@@ -83,6 +90,16 @@
 				9818A41228BB0CCD00C33DBB /* Info.plist */,
 			);
 			path = Week2;
+			sourceTree = "<group>";
+		};
+		981B187428BD908100B7E214 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				981B187528BD90A600B7E214 /* Transition.storyboard */,
+				98F2D84728BD974800205F75 /* TransitionFirstViewController.swift */,
+				98F2D84928BDA35E00205F75 /* TransitionSecondViewController.swift */,
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 		98D8D3C728BCD45D007A24AB /* New Group */ = {
@@ -166,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9818A41128BB0CCD00C33DBB /* LaunchScreen.storyboard in Resources */,
+				981B187628BD90A600B7E214 /* Transition.storyboard in Resources */,
 				9818A40E28BB0CCD00C33DBB /* Assets.xcassets in Resources */,
 				9818A40C28BB0CC900C33DBB /* Main.storyboard in Resources */,
 				98D8D3C628BCD3A8007A24AB /* Setting.storyboard in Resources */,
@@ -182,8 +200,10 @@
 			files = (
 				98D8D3D828BCE358007A24AB /* SearchViewController.swift in Sources */,
 				98D8D3C428BBAA31007A24AB /* FunctionViewController.swift in Sources */,
+				98F2D84828BD974800205F75 /* TransitionFirstViewController.swift in Sources */,
 				9818A40928BB0CC900C33DBB /* ViewController.swift in Sources */,
 				9818A40528BB0CC900C33DBB /* AppDelegate.swift in Sources */,
+				98F2D84A28BDA35E00205F75 /* TransitionSecondViewController.swift in Sources */,
 				9818A40728BB0CC900C33DBB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSHQ8JA888;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Week2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -343,7 +364,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.taehwan.Week2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taehwan.Week2-renewed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -358,6 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VSHQ8JA888;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Week2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -370,7 +392,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.taehwan.Week2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taehwan.Week2-renewed";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
